@@ -1,0 +1,38 @@
+body {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures the body takes up the full height of the viewport */
+    margin: 0; /* Remove default body margin */
+}
+
+.main-container {
+    width: 1200px;
+    height: 800px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.4s ease; 
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.767); 
+}
+
+.logos {
+    display: flex;
+    justify-content: center; 
+}
+
+#logo-text {
+    width: 400px;
+    height: 70px;
+    margin-right: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top:15px ;
+}
+
+#logo-img {
+    width: 100px;
+    padding-bottom: 20px;
+}
